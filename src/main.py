@@ -12,8 +12,7 @@ class TodoList():
     def __add__(self, oth):
         oth = self.task + oth.task
         obj = TodoList(oth)
-        #oth = self.task + TodoList.task
-        return str(obj) #'\n'.join(oth)
+        return obj
 
 
 tasks = ['Task1', 'Task2']
